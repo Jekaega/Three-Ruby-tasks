@@ -1,5 +1,7 @@
-
+str = gets.chomp
+symbol = gets.chomp 
 def deletSym (str, symbol)
     str.delete(symbol)
 end
-puts deletSym("gfjgfngfg", "g")
+
+puts deletSym(str, symbol)
